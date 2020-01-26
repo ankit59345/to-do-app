@@ -1,0 +1,11 @@
+<div *ngIf="todoArray.length>0">
+    <h2 align="center" class='heading'>To Do Tasks</h2><br><br>
+    <div *ngFor="let todo of todoArray; let i = index;">
+      <mat-card class="card" style="background-color: white;">
+          <b>{{i+1}}.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><span>{{todo.task}}</span>
+          <button mat-button class="button" (click)="removeTask(i)">
+            <mat-icon class="button">delete</mat-icon>
+          </button>
+      </mat-card><span class="brxsmall"></span>
+    </div>
+  </div>

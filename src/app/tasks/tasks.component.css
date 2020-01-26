@@ -1,0 +1,18 @@
+.button{
+    float: right;
+}
+.heading{
+    color: rgba(255, 255, 255, 0.911);
+}
+.brxsmall { 
+    display: block; 
+    margin-bottom: 0.2em; 
+}
+.card{
+    margin: auto;
+    width: 60%;
+    background-color: rgb(207, 228, 252);
+}
+.example-margin{
+    margin-right: 10px;
+}

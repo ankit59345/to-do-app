@@ -1,0 +1,12 @@
+<mat-toolbar color='warn' style="text-align: center;"><span style="margin: auto;">To Do App</span></mat-toolbar>
+    <div align='center' class="f">
+        <mat-form-field class='input'>
+            <mat-icon matSuffix>post_add</mat-icon>
+            <mat-label class="x"><b><i>To Do Task</i></b></mat-label>
+            
+            <input matInput placeholder="Add A Task" [(ngModel)]="task" />
+            
+            <mat-hint class="x">e.g.: Make Shopping List</mat-hint>
+        </mat-form-field>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-raised-button class="btt" color="warn" (click)="onAddToList()">Add  The  Task</button>
+    </div>
